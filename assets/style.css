@@ -1,18 +1,24 @@
+body {
+  background-color: slategray;
+}
 #post {
   height: 100px;
   width: 50px;
   background-color: black;
+  margin: auto;
 }
 #body {
   height: 300px;
-  width: 200px;
+  width: 125px;
   background-color: black;
+  margin: auto;
+  padding-top: 15px;
 }
 .light {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
-  padding: 5px;
+  margin: 10px;
 }
 #red {
   background-color: red;
@@ -22,5 +28,13 @@
 }
 #green {
   background-color: green;
-  
+}
+#green:hover {
+box-shadow: 0px 0px 20px 20px rgba(0, 255, 0, .5)
+}
+#red:hover {
+box-shadow: 0px 0px 20px 20px rgba(255, 0, 0, .5)
+}
+#yellow:hover {
+box-shadow: 0px 0px 20px 20px rgba(255, 255, 0, 0.5)
 }
